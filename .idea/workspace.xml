@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d8b0d1-cc16-4f6d-9e29-a9c1e0f41cf8" name="Changes" comment="Initial, bus creation added">
+    <list default="true" id="74d8b0d1-cc16-4f6d-9e29-a9c1e0f41cf8" name="Changes" comment="CRUD for buses">
+      <change afterPath="$PROJECT_DIR$/route/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/route/crud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/route/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/route/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/route/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/route/validators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bus/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/bus/crud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bus/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bus/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bus/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bus/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bus/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/bus/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +71,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729538942870</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CRUD for buses">
+      <option name="closed" value="true" />
+      <created>1729584323261</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729584323261</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -72,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial, bus creation added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial, bus creation added" />
+    <MESSAGE value="CRUD for buses" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD for buses" />
   </component>
 </project>
