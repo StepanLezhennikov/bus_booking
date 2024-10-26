@@ -10,9 +10,10 @@ class Bus(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String)
     seats = Column(Integer)
-    free_seats = Column(Integer, default=seats)
+    free_seats = Column(Integer)
 
     routes = relationship("Route", back_populates="bus")
+    # booking = relationship("Booking", back_populates="bus")
 
 
 @event.listens_for(Bus, 'before_insert')

@@ -2,6 +2,8 @@ from typing import List
 
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
+
+from auth.auth import role_required
 from database import get_db
 from .schemas import Bus, BusCreate
 from .crud import create_bus as create_new_bus, get_buses as get_all_buses, get_bus as get_one_bus, delete_bus as delete_one_bus
@@ -9,7 +11,7 @@ from .crud import create_bus as create_new_bus, get_buses as get_all_buses, get_
 router = APIRouter(prefix="/buses", tags=["Работа с автобусами"])
 
 
-@router.post('/', description='Создание автобуса')
+@router.post('/', dependencies=[Depends(role_required('admin'))], description='Создание автобуса')
 async def create_bus(bus: BusCreate, db: AsyncSession = Depends(get_db)) -> Bus:
     new_bus = await create_new_bus(db, bus)
     return Bus.from_orm(new_bus)
@@ -28,7 +30,7 @@ async def get_bus(bus_id: int, db: AsyncSession = Depends(get_db)) -> Bus:
     return bus
 
 
-@router.delete('/{bus_id}',description="Удаление автобуса")
+@router.delete('/{bus_id}', dependencies=[Depends(role_required('admin'))], description="Удаление автобуса")
 async def delete_bus(bus_id: int, db: AsyncSession = Depends(get_db)) -> Bus:
     bus = await  delete_one_bus(bus_id, db)
     if not bus:
