@@ -21,4 +21,4 @@ class User(Base):
     role = Column(Enum(UserRole), default=UserRole.admin)  # Потом исправить на client
     is_active = Column(Boolean, default=True)
 
-    # booking = relationship("Booking", back_populates="user")
+    bookings = relationship("Booking", back_populates="user")

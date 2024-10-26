@@ -4,26 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d8b0d1-cc16-4f6d-9e29-a9c1e0f41cf8" name="Changes" comment="CRUD for routes">
-      <change afterPath="$PROJECT_DIR$/alembic/versions/3b363639bbe2_user_added.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic/versions/bc24346be518_user_added.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/user_crud.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/user_schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking/crud.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking/schemas.py" afterDir="false" />
+    <list default="true" id="74d8b0d1-cc16-4f6d-9e29-a9c1e0f41cf8" name="Changes" comment="Authorisation and authentication added">
+      <change afterPath="$PROJECT_DIR$/booking/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking/crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking/schemas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bus/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bus/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bus/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/bus/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/route/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/route/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/route/routes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729762029718</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Authorisation and authentication added">
+      <option name="closed" value="true" />
+      <created>1729930887516</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729930887516</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -106,6 +104,7 @@
     <MESSAGE value="Initial, bus creation added" />
     <MESSAGE value="CRUD for buses" />
     <MESSAGE value="CRUD for routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD for routes" />
+    <MESSAGE value="Authorisation and authentication added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Authorisation and authentication added" />
   </component>
 </project>

@@ -13,7 +13,7 @@ class Bus(Base):
     free_seats = Column(Integer)
 
     routes = relationship("Route", back_populates="bus")
-    # booking = relationship("Booking", back_populates="bus")
+    booking = relationship("Booking", back_populates="bus")
 
 
 @event.listens_for(Bus, 'before_insert')

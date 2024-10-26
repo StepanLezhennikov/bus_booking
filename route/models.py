@@ -16,4 +16,4 @@ class Route(Base):
     bus_id = Column(Integer, ForeignKey("buses.id"))
 
     bus = relationship("Bus", back_populates='routes')
-    # booking = relationship("Booking", back_populates="route")
+    booking = relationship("Booking", back_populates="route")
