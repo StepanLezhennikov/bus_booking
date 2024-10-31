@@ -1,0 +1,10 @@
+version: '3.12'
+
+services:
+  app:
+    build: .
+    container_name: booking_bus_app
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env

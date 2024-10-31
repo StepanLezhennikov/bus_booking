@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d8b0d1-cc16-4f6d-9e29-a9c1e0f41cf8" name="Changes" comment="Authorisation and authentication added">
-      <change afterPath="$PROJECT_DIR$/booking/routes.py" afterDir="false" />
+    <list default="true" id="74d8b0d1-cc16-4f6d-9e29-a9c1e0f41cf8" name="Changes" comment="req">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking/crud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/booking/schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bus/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bus/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/route/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -39,13 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,7 +91,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729930887516</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="booking added">
+      <option name="closed" value="true" />
+      <created>1729954564111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729954564111</updated>
+    </task>
+    <task id="LOCAL-00006" summary="booking added">
+      <option name="closed" value="true" />
+      <created>1729954642916</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729954642916</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -105,6 +118,7 @@
     <MESSAGE value="CRUD for buses" />
     <MESSAGE value="CRUD for routes" />
     <MESSAGE value="Authorisation and authentication added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Authorisation and authentication added" />
+    <MESSAGE value="booking added" />
+    <option name="LAST_COMMIT_MESSAGE" value="booking added" />
   </component>
 </project>
