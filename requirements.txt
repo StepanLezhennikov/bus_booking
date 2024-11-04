@@ -1,6 +1,8 @@
+aiokafka==0.12.0
 alembic==1.13.3
 annotated-types==0.7.0
 anyio==4.6.2.post1
+async-timeout==4.0.3
 asyncpg==0.30.0
 bcrypt==4.2.0
 certifi==2024.8.30
@@ -25,6 +27,7 @@ markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 mdurl==0.1.2
 orjson==3.10.9
+packaging==24.1
 passlib==1.7.4
 psycopg2==2.9.10
 psycopg2-binary==2.9.10

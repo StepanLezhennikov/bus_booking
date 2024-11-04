@@ -7,6 +7,7 @@ from auth.models import User
 from auth.user_schemas import UserBase
 from booking.schemas import BookingCreate, Booking as SBooking
 from database import get_db
+from producer import send_message
 from .crud import add_booking as create_booking
 
 router = APIRouter(prefix='/booking', tags=["Работа с бронированием"])
@@ -21,4 +22,7 @@ async def add_booking(booking: BookingCreate, user: UserBase = Depends(get_curre
     if not user_id:
         raise HTTPException(status_code=404, detail="Пользователь не найден")
     booking_data = booking.copy(update={"user_id": user_id})
-    return await create_booking(booking_data, db)
+    booking = await create_booking(booking_data, db)
+    await send_message("booking",
+                       f"Пользователь {booking.user_id} забронировал место в автобусе {booking.bus_id} на маршруте {booking.route_id}")
+    return booking
